@@ -100,4 +100,4 @@ app.get('*', (req, res) => {
 })
 
 
-app.listen(port, () => console.log(`App available on https://localhost:8000`))
+app.listen(port, () => console.log(`App available on port ${port}`))
